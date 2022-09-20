@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.Create_Person"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Create_Person" Height="450" Width="800">
+    <Grid Background="AliceBlue">
+        <TextBlock x:Name="tbk_Name" FontSize="20" HorizontalAlignment="Left" Margin="80,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="99"><Run Language="zh-tw" Text="Name: "/></TextBlock>
+
+        <TextBox Name="tb_Name" FontSize="20" HorizontalAlignment="Left" Margin="161,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" Height="33"/>
+
+        <Button Name="btn_Cancel" Content="Cancel" HorizontalAlignment="Left" Margin="234,318,0,0" VerticalAlignment="Top" Height="55" Width="116" Click="Button_Click_Cancel"/>
+        <Button Name="btn_Create" Content="Create" HorizontalAlignment="Left" Margin="478,318,0,0" VerticalAlignment="Top" Height="55" Width="116" Click="Button_Click_Create"/>
+
+
+
+
+    </Grid>
+</Window>
